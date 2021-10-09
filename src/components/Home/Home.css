@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;600;800&family=Ramabhadra&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F23557;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quoteBox {
+    width: 70%;
+    min-height: 70vh;
+    background-color: #FF738C;
+    padding: 2rem 4rem;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quote {
+    font-size: 3.5rem;
+    font-weight: 600;
+    display: block;
+    margin-top: 4rem;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 100;
+}
+
+.reload {
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.colon {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons img {
+    width: 2rem;
+    cursor: pointer;
+}
+
+.ml {
+    margin-left: 0.5rem;
+}
